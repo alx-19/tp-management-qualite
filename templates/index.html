@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>TP DevOps</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<h1>Clients</h1>
+<form method="POST">
+    Nom: <input type="text" name="nom">
+    Prénom: <input type="text" name="prenom">
+    <input type="submit" value="Ajouter">
+</form>
+<ul>
+    {% for client in clients %}
+    <li>{{ client.nom }} {{ client.prenom }}</li>
+    {% endfor %}
+</ul>
+</body>
+</html>
