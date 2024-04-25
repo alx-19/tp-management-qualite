@@ -2,5 +2,5 @@ projectKey=mon_application
 serverUrl=http://10.101.3.125:9000
 serverVersion=10.5.0.89998
 dashboardUrl=http://10.101.3.125:9000/dashboard?id=mon_application
-ceTaskId=87e62bc2-468c-456b-a18d-ed534c61fa3e
-ceTaskUrl=http://10.101.3.125:9000/api/ce/task?id=87e62bc2-468c-456b-a18d-ed534c61fa3e
+ceTaskId=1c699327-6c39-4a37-a70d-761fab21a48a
+ceTaskUrl=http://10.101.3.125:9000/api/ce/task?id=1c699327-6c39-4a37-a70d-761fab21a48a

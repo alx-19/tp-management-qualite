@@ -1,4 +1,4 @@
-æêµ¨Ò1mon_application(:R
+Ò«»¨Ò1mon_application(:R
 
 kubernetesD
 $09f0611f-37cc-43e8-a9d8-ee69eb3dd4b6	Sonar way
@@ -68,4 +68,4 @@ $31a78a65-1156-4ca2-bd1e-14f1ca24f098	Sonar wayts ∏°ı©Ò1B
 
 javascript
 
-javascript∏¶ı©Ò1Ç1.0
+javascript∏¶ı©Ò1j(293e012653e0a9e85258697c050da7837eb83ad9Ç1.0
