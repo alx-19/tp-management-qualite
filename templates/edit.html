@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Modifier Client</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<h1>Modifier Client</h1>
+<form method="POST">
+    Nom: <input type="text" name="nom" value="{{ client.nom }}">
+    Prénom: <input type="text" name="prenom" value="{{ client.prenom }}">
+    Date de Naissance: <input type="text" name="date_naissance" value="{{ client.date_naissance }}">
+    Adresse: <input type="text" name="adresse" value="{{ client.adresse }}">
+    Code Postal: <input type="text" name="cp" value="{{ client.cp }}">
+    Ville: <input type="text" name="ville" value="{{ client.ville }}">
+    <input type="submit" value="Modifier">
+</form>
+</body>
+</html>

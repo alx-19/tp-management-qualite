@@ -10,11 +10,20 @@
 <form method="POST">
     Nom: <input type="text" name="nom">
     Prénom: <input type="text" name="prenom">
+    Date de Naissance: <input type="text" name="date_naissance">
+    Adresse: <input type="text" name="adresse">
+    Code Postal: <input type="text" name="cp">
+    Ville: <input type="text" name="ville">
     <input type="submit" value="Ajouter">
 </form>
+
 <ul>
     {% for client in clients %}
-    <li>{{ client.nom }} {{ client.prenom }}</li>
+    <li>
+        {{ client.nom }} {{ client.prenom }} - {{ client.adresse }}, {{ client.cp }}, {{ client.ville }}
+        <a href="{{ url_for('edit', id=client.id) }}">Modifier</a>
+        <a href="{{ url_for('delete', id=client.id) }}" onclick="return confirm('Êtes-vous sûr de vouloir supprimer ce client ?');">Supprimer</a>
+    </li>
     {% endfor %}
 </ul>
 </body>
